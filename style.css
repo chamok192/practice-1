@@ -1,13 +1,57 @@
+/* .universal-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+} */
 
-.universal-font {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+/* hero section styles  */
+header {
+    background: rgba(255, 144, 14, .1);
+    font-family: "Work Sans", sans-serif;
+
+}
+ /* navigation bar styles  */
+.container {
+    width: 80%;
+    padding-top: 30px;
+    margin: 0 auto;  
 }
 
-/* hero section styles  */
- header{
-    /* background-color:rgba(252, 203, 148, 0.5); */
-    background-color: #FF900E;
-    opacity: 0.2;
- }
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* main logo  */
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 45px;
+}
+nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+nav ul li a:hover {
+    color: #FF900E;
+    font-size:larger;
+
+}
