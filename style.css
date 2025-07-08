@@ -1,0 +1,13 @@
+
+.universal-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* hero section styles  */
+ header{
+    /* background-color:rgba(252, 203, 148, 0.5); */
+    background-color: #FF900E;
+    opacity: 0.2;
+ }
