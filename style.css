@@ -120,7 +120,7 @@ nav ul li a:active {
 
 .team-section {
     margin: 0 auto;
-    max-width: 75%;
+    max-width: 80%;
     display: flex;
 
 }
@@ -131,12 +131,13 @@ nav ul li a:active {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    margin-left: 5%;
     padding: 50px 0;
 }
 
 .image-size {
-    width: 260px;
-    height: 260px;
+    width: 250px;
+    height: 250px;
 }
 
 /* team section details design  */
@@ -173,7 +174,54 @@ nav ul li a:active {
     font-size: 16px;
     font-weight: 400;
     color: #727272;
-    margin: 0;
+    margin-top: 10px;
     padding: 0;
+
+}
+
+/* team section style ends and features section starts  */
+.features-section {
+    background-color: blueviolet;
+    max-width: 80%;
+    height: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+}
+
+.features-list {
+    background-color: aquamarine;
+    width: 40%;
+    height: 95%;
+}
+
+.features-images {
+    width: 65%;
+    height: 100%;
+}
+
+.bg-image {
+    width: 100%;
+    height: 100%;
+    background-image: url('images/architect.png');
+    background-repeat: no-repeat;
+    background-size: 90% 90%;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+
+/* experience button  */
+.experience-btn {
+    background-color: #FF900E;
+    width: 342px;
+    height: 200px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
