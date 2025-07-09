@@ -142,7 +142,7 @@ nav ul li a:active {
 
 /* team section details design  */
 .team-info {
-    max-width:37%;
+    max-width: 37%;
     margin-left: 3%;
     display: flex;
     flex-direction: column;
@@ -189,13 +189,8 @@ nav ul li a:active {
     gap: 10px;
 }
 
-.features-list {
-    width: 40%;
-    height: 95%;
-}
-
 .features-images {
-    width: 65%;
+    width: 60%;
     height: 100%;
 }
 
@@ -204,7 +199,7 @@ nav ul li a:active {
     height: 100%;
     background-image: url('images/architect.png');
     background-repeat: no-repeat;
-    background-size: 90% 90%;
+    background-size:85% 85%;
     background-position: right;
     display: flex;
     flex-direction: column;
@@ -224,10 +219,19 @@ nav ul li a:active {
     align-items: center;
 
 }
+
 /* features secttion styles  */
-.features-list{
-    width: 586px;
-    height: 982px;
+.features-list {
+    width: 38%;
+    height: 100%;
     margin-top: 5%;
+    margin-right: 2%;
     padding: 0;
+}
+
+.features-box {
+    width: 100%;
+    height: 171px;
+    background-color: #fff;
+    border: 2px solid #FF900E;
 }
