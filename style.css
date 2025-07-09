@@ -34,6 +34,7 @@ nav a {
     font-weight: 700;
     font-size: 45px;
 }
+
 nav a:active {
     color: #FF900E;
     transform: scale(0.95);
@@ -63,6 +64,7 @@ nav ul li a:active {
     transform: scale(0.95);
     color: red;
 }
+
 /* navigation section style ends hero section starts */
 .hero {
     display: flex;
@@ -71,26 +73,31 @@ nav ul li a:active {
     text-align: center;
     padding: 100px 0;
 }
+
 .hero-info {
     max-width: 60%;
 }
+
 .hero-heading {
     font-size: 64px;
     font-weight: 700;
     color: #000;
 }
+
 .hero-text {
     font-size: 16px;
     font-weight: 400;
     color: #727272;
     margin: 15px 0;
 }
+
 .hero-image {
     max-width: 80%;
     height: auto;
     margin-top: 30px;
 }
-.hero-btn{
+
+.hero-btn {
     background-color: #FF900E;
     height: 64px;
     width: 180px;
@@ -103,6 +110,7 @@ nav ul li a:active {
     font-weight: 500;
     cursor: pointer;
 }
+
 .hero-btn a {
     text-decoration: none;
     color: #fff;
@@ -116,21 +124,56 @@ nav ul li a:active {
     display: flex;
 
 }
+
 .team-images {
-    max-height: 400px;
-    max-width: 50%;
+    max-height: 100%;
+    max-width: 60%;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     padding: 50px 0;
 }
+
 .image-size {
-    width: 200px;
-    height: 200px;
+    width: 260px;
+    height: 260px;
 }
+
 /* team section details design  */
+.team-info {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
 #text-design1 {
     color: #727272;
     font-size: 45px;
     font-weight: 500;
+}
+
+#text-design2 {
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.team-info h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #000;
+    margin: 0;
+    padding: 0;
+
+}
+
+.team-info p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin: 0;
+    padding: 0;
+
 }
