@@ -181,7 +181,6 @@ nav ul li a:active {
 
 /* team section style ends and features section starts  */
 .features-section {
-    background-color: blueviolet;
     max-width: 80%;
     height: 1100px;
     margin: 0 auto;
@@ -190,7 +189,6 @@ nav ul li a:active {
 }
 
 .features-list {
-    background-color: aquamarine;
     width: 40%;
     height: 95%;
 }
