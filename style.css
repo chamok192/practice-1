@@ -115,6 +115,14 @@ nav ul li a:active {
     text-decoration: none;
     color: #fff;
 }
+.hero-btn:hover {
+    background-color:#727272 ;
+    transform: scale(0.95);
+}
+.hero-btn  a:active {
+    color: #FF900E;
+    transform: scale(0.9);
+}
 
 /* main section starts  */
 
