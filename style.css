@@ -270,6 +270,15 @@ nav ul li a:active {
     padding: 4%;
 }
 
+/* sponsors section styles  */
+.sponsors{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+
+}
+
 /* footer section styles  */
 .footer-section {
     width: 80%;
@@ -279,4 +288,10 @@ nav ul li a:active {
     border-radius: 8px;
     text-align: center;
     margin-bottom: 5%;
+}
+.footer-section p {
+    color: #424242;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
 }
