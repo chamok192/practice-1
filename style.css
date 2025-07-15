@@ -269,3 +269,14 @@ nav ul li a:active {
     align-items: center;
     padding: 4%;
 }
+
+/* footer section styles  */
+.footer-section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 5%;
+}
